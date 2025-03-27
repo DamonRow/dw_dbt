@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: samssubs_landing
+    database: damonrowsell
+    schema: samssubs_source_sams_subs
+    tables:
+      - name: customer
+      - name: employee
+      - name: orders
+      - name: orderdetails
+      - name: product
+      - name: sandwich
+      - name: store
